@@ -18,36 +18,11 @@
     .image-container {
       text-align: center;
       margin-bottom: 20px;
-      position: relative;
-      height: 300px; /* 设置图片容器的高度 */
-      overflow: hidden; /* 隐藏超出容器高度的内容 */
     }
 
     .image-container img {
-      max-width: 100%;
-      height: auto;
-      position: absolute;
-      top: 0;
-      left: 0;
-      opacity: 0; /* 初始将图片设为透明 */
-      transition: opacity 1s ease-in-out; /* 添加过渡效果 */
-      animation: image-animation 10s infinite alternate; /* 添加图片滚动动画 */
-    }
-
-    .image-container img.active {
-      opacity: 1; /* 将活动图片设为不透明 */
-    }
-
-    @keyframes image-animation {
-      0% {
-        opacity: 0;
-      }
-      50% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
+      width: 45%;
+      margin: 2.5%;
     }
 
     .video-container {
@@ -59,7 +34,6 @@
     .intro {
       text-align: center;
       margin-bottom: 20px;
-      font-size: 24px;
     }
 
     .additional-info {
@@ -91,15 +65,28 @@
 <body>
   <div class="container">
     <h1>Welcome to Coconut Trading Room</h1>
-    
-    <div class="intro">
-      <p>Exness: Reliable forex broker with competitive spreads, innovative technology, and exceptional client support. Start trading forex and gold with Exness for a chance to profit big.</p>
-    </div>
 
     <div class="image-container">
-      <img src="https://d3dpet1g0ty5ed.cloudfront.net/EN_CRYPTO_HUMAN_DARK_WOMAN_1200x628_px.jpg" alt="Banner 1" class="active">
+      <img src="https://d3dpet1g0ty5ed.cloudfront.net/EN_CRYPTO_HUMAN_DARK_WOMAN_1200x628_px.jpg" alt="Banner 1">
       <img src="https://d3dpet1g0ty5ed.cloudfront.net/EN_CRYPTO_SCREEN_1200x628_px.jpg" alt="Banner 2">
     </div>
 
     <div class="video-container">
-      <iframe width="800" height="450" src="https://brandfolder.com/brandfolder/attachments/embed/bxqqhfssq4rt2g3frb7h9h?loop=false&muted=false&autoplay=false" frameborder="0" allowfullscreen
+      <iframe width="640" height="360" src="https://brandfolder.com/brandfolder/attachments/embed/bxqqhfssq4rt2g3frb7h9h?loop=false&muted=false&autoplay=false" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="intro">
+      <p>Exness: Reliable forex broker with competitive spreads, innovative technology, and exceptional client support. Start trading forex and gold with Exness for a chance to profit big.</p>
+    </div>
+
+    <div class="additional-info">
+      <h2>Additional Information</h2>
+      <ul>
+        <li><a href="https://www.exness.com/">Visit Exness Website</a></li>
+        <li><a href="https://www.exness.com/trading/account-types/">Account Types</a></li>
+        <li><a href="https://www.exness.com/trading/forex/">Forex Trading</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
