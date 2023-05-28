@@ -31,10 +31,23 @@
       left: 0;
       opacity: 0; /* 初始将图片设为透明 */
       transition: opacity 1s ease-in-out; /* 添加过渡效果 */
+      animation: image-animation 10s infinite alternate; /* 添加图片滚动动画 */
     }
 
     .image-container img.active {
       opacity: 1; /* 将活动图片设为不透明 */
+    }
+
+    @keyframes image-animation {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
     }
 
     .video-container {
@@ -89,12 +102,4 @@
     </div>
 
     <div class="video-container">
-      <iframe width="800" height="450" src="https://brandfolder.com/brandfolder/attachments/embed/bxqqhfssq4rt2g3frb7h9h?loop=false&muted=false&autoplay=false" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="additional-info">
-      <h2>Additional Information</h2>
-      <ul>
-        <li><a href="https://www.exness.com/">Visit Exness Website</a></li>
-        <li><a href="https://www.exness.com/trading/account-types/">Account Types</a></li>
-        <
+      <iframe width="800" height="450" src="https://brandfolder.com/brandfolder/attachments/embed/bxqqhfssq4rt2g3frb7h9h?loop=false&muted=false&autoplay=false" frameborder="0" allowfullscreen
