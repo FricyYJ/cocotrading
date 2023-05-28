@@ -1,0 +1,24 @@
+<head>
+<title>KermsGithub</title>
+</head>
+<body>
+    <h1>
+        这是Jason的Github
+    </h1>
+    <p>  
+        分享一些自己的经验，让大家少踩一点坑。随缘更新。
+    <a href="http://blog.kermsite.ml">访问个人博客</a>
+        <a href="https://www.zhihu.com/people/kerm-8">访问知乎主页</a>
+    </p>
+    <img src="https://cdn.jsdelivr.net/gh/yw2667899/pic/img/84595361_p0.jpg" alt="some_text" width="100%"></img>
+    图片来自 Pixiv： 429077
+</body>
+
+
+<!-- 说明：你可以自己修改这份代码，
+比如把里面第二个链接改成你自己知乎主页的链接，
+修改里面的文字，
+把第三个链接换成你喜欢的图片的链接，
+等等。
+这是html语言，学起来应该也挺简单的，之后我也会尝试写一下这方面的东西吧。
+ -->
