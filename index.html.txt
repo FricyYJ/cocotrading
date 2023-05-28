@@ -11,8 +11,6 @@
           <img src="https://d3dpet1g0ty5ed.cloudfront.net/EN_CRYPTO_HUMAN_DARK_WOMAN_1200x628_px.jpg" width="1200" height="628" alt="" />
         </a>
     </p>
-    <img src="https://cdn.jsdelivr.net/gh/yw2667899/pic/img/84595361_p0.jpg" alt="some_text" width="100%"></img>
-    图片来自 Pixiv： 429077
 </body>
 
 
